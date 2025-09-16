@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latest High/Critical Vulnerabilitiy Feed</title><link>https://cvefeed.io/vuln/latest/</link><description>Updates on the latest &lt;strong&gt;high and critical severity&lt;/strong&gt; vulnerabilities.</description><atom:link href="https://cvefeed.io/rssfeed/severity/high.xml" rel="self"/><language>en</language><lastBuildDate>Tue, 16 Sep 2025 15:00:32 +0000</lastBuildDate>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latest High/Critical Vulnerabilitiy Feed</title><link>https://cvefeed.io/vuln/latest/</link><description>Updates on the latest &lt;strong&gt;high and critical severity&lt;/strong&gt; vulnerabilities.</description><atom:link href="https://cvefeed.io/rssfeed/severity/high.xml" rel="self"/><language>en</language><lastBuildDate>Tue, 16 Sep 2025 15:15:01 +0000</lastBuildDate>
 <item><title>CVE-2025-99999 - TEST ENTRY - Dummy CVE for demonstration purposes</title><link>https://cvefeed.io/vuln/detail/CVE-2025-99999</link><description>
 &lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-99999
 &lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 16, 2025, 13:00 a.m. | 12 minutes ago
+&lt;strong&gt;Published : &lt;/strong&gt; Sept. 16, 2025, 13:15 p.m. | 5 minutes ago
 &lt;br&gt;
 &lt;strong&gt;Description : &lt;/strong&gt;This is a dummy CVE entry created for demonstration purposes only. It does not represent a real vulnerability and should not be acted upon.
 &lt;br&gt;
 &lt;strong&gt;Severity:&lt;/strong&gt; 9.9 | CRITICAL
 &lt;br&gt;
 Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Tue, 16 Sep 2025 13:00:00 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-99999</guid></item><item><title>CVE-2025-59145 - color-name@2.0.1 contains malware after npm account takeover</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59145</link><description>
+</description><pubDate>Tue, 16 Sep 2025 13:15:00 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-99999</guid></item><item><title>CVE-2025-59145 - color-name@2.0.1 contains malware after npm account takeover</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59145</link><description>
 &lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-59145
 &lt;br&gt;
 &lt;strong&gt;Published : &lt;/strong&gt; Sept. 15, 2025, 9:15 p.m. | 11 hours, 35 minutes ago
