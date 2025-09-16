@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latest High/Critical Vulnerabilitiy Feed</title><link>https://cvefeed.io/vuln/latest/</link><description>Updates on the latest &lt;strong&gt;high and critical severity&lt;/strong&gt; vulnerabilities.</description><atom:link href="https://cvefeed.io/rssfeed/severity/high.xml" rel="self"/><language>en</language><lastBuildDate>Tue, 16 Sep 2025 15:15:01 +0000</lastBuildDate>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latest High/Critical Vulnerabilitiy Feed</title><link>https://cvefeed.io/vuln/latest/</link><description>Updates on the latest &lt;strong&gt;high and critical severity&lt;/strong&gt; vulnerabilities.</description><atom:link href="https://cvefeed.io/rssfeed/severity/high.xml" rel="self"/><language>en</language><lastBuildDate>Tue, 16 Sep 2025 13:15:01 +0000</lastBuildDate>
 <item><title>CVE-2025-99999 - TEST ENTRY - Dummy CVE for demonstration purposes</title><link>https://cvefeed.io/vuln/detail/CVE-2025-99999</link><description>
 &lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-99999
 &lt;br&gt;
