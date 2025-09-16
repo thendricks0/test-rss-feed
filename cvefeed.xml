@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latest High/Critical Vulnerabilitiy Feed</title><link>https://cvefeed.io/vuln/latest/</link><description>Updates on the latest &lt;strong&gt;high and critical severity&lt;/strong&gt; vulnerabilities.</description><atom:link href="https://cvefeed.io/rssfeed/severity/high.xml" rel="self"/><language>en</language><lastBuildDate>Tue, 16 Sep 2025 07:46:32 +0000</lastBuildDate><item><title>CVE-2024-12367 - Information Disclosure in Vegagrup Software's Vega Master</title><link>https://cvefeed.io/vuln/detail/CVE-2024-12367</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latest High/Critical Vulnerabilitiy Feed</title><link>https://cvefeed.io/vuln/latest/</link><description>Updates on the latest &lt;strong&gt;high and critical severity&lt;/strong&gt; vulnerabilities.</description><atom:link href="https://cvefeed.io/rssfeed/severity/high.xml" rel="self"/><language>en</language><lastBuildDate>Tue, 16 Sep 2025 07:46:32 +0000</lastBuildDate>
+<item><title>CVE-TEST-00001 - Dummy Test CVE Entry (TEST)</title><link>https://cvefeed.io/vuln/detail/CVE-TEST-00001</link><description>
+&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-TEST-00001
+&lt;br&gt;
+&lt;strong&gt;Published : &lt;/strong&gt; Sept. 16, 2025, 11:00 a.m. | Just now
+&lt;br&gt;
+&lt;strong&gt;Description : &lt;/strong&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+&lt;br&gt;
+&lt;strong&gt;Severity:&lt;/strong&gt; 0.0 | TEST
+&lt;br&gt;
+This is a test entry for validating RSS feed parsing and display. No action required.
+</description><pubDate>Tue, 16 Sep 2025 11:00:00 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-TEST-00001</guid></item>
+<item><title>CVE-2024-12367 - Information Disclosure in Vegagrup Software's Vega Master</title><link>https://cvefeed.io/vuln/detail/CVE-2024-12367</link><description>
 &lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2024-12367
 &lt;br&gt;
 &lt;strong&gt;Published : &lt;/strong&gt; Sept. 16, 2025, 7:46 a.m. | 1 hour, 4 minutes ago
