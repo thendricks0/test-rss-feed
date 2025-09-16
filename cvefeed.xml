@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latest High/Critical Vulnerabilitiy Feed</title><link>https://cvefeed.io/vuln/latest/</link><description>Updates on the latest &lt;strong&gt;high and critical severity&lt;/strong&gt; vulnerabilities.</description><atom:link href="https://cvefeed.io/rssfeed/severity/high.xml" rel="self"/><language>en</language><lastBuildDate>Tue, 16 Sep 2025 07:46:32 +0000</lastBuildDate>
-<item><title>CVE-2025-59145 - color-name@2.0.1 contains malware after npm account takeover</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59145</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latest High/Critical Vulnerabilitiy Feed</title><link>https://cvefeed.io/vuln/latest/</link><description>Updates on the latest &lt;strong&gt;high and critical severity&lt;/strong&gt; vulnerabilities.</description><atom:link href="https://cvefeed.io/rssfeed/severity/high.xml" rel="self"/><language>en</language><lastBuildDate>Tue, 16 Sep 2025 07:46:32 +0000</lastBuildDate><item><title>CVE-2024-12367 - Information Disclosure in Vegagrup Software's Vega Master</title><link>https://cvefeed.io/vuln/detail/CVE-2024-12367</link><description>
+&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2024-12367
+&lt;br&gt;
+&lt;strong&gt;Published : &lt;/strong&gt; Sept. 16, 2025, 7:46 a.m. | 1 hour, 4 minutes ago
+&lt;br&gt;
+&lt;strong&gt;Description : &lt;/strong&gt;Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in VegaGrup Yazılım ve Bilişim Teknolojileri A.Ş. Vega Master allows Directory Indexing.This issue affects Vega Master: from v.1.12.35 through 20250916. 
+
+NOTE: The vendor did not inform about the completion of the fixing process within the specified time. The CVE will be updated when new information becomes available.
+&lt;br&gt;
+&lt;strong&gt;Severity:&lt;/strong&gt; 8.6 | HIGH
+&lt;br&gt;
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</description><pubDate>Tue, 16 Sep 2025 07:46:32 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2024-12367</guid></item><item><title>CVE-2025-59145 - color-name@2.0.1 contains malware after npm account takeover</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59145</link><description>
 &lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-59145
 &lt;br&gt;
 &lt;strong&gt;Published : &lt;/strong&gt; Sept. 15, 2025, 9:15 p.m. | 11 hours, 35 minutes ago
