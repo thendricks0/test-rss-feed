@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latest High/Critical Vulnerabilitiy Feed</title><link>https://cvefeed.io/vuln/latest/</link><description>Updates on the latest &lt;strong&gt;high and critical severity&lt;/strong&gt; vulnerabilities.</description><atom:link href="https://cvefeed.io/rssfeed/severity/high.xml" rel="self"/><language>en</language><lastBuildDate>Thu, 18 Sep 2025 12:35:01 +0000</lastBuildDate><item><title>CVE-2025-12345 - SAP Commerce Cloud Authentication Bypass and Remote Code Execution Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-9873</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latest High/Critical Vulnerabilitiy Feed</title><link>https://cvefeed.io/vuln/latest/</link><description>Updates on the latest &lt;strong&gt;high and critical severity&lt;/strong&gt; vulnerabilities.</description><atom:link href="https://cvefeed.io/rssfeed/severity/high.xml" rel="self"/><language>en</language><lastBuildDate>Thu, 18 Sep 2025 12:57:00 +0000</lastBuildDate><item><title>CVE-2025-13749 - Apache Camel XML External Entity (XXE) Injection and Remote Code Execution Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-13749</link><description>
+&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-13749
+&lt;br&gt;
+&lt;strong&gt;Published : &lt;/strong&gt; Sept. 18, 2025, 12:57 p.m. | 1 minute ago
+&lt;br&gt;
+&lt;strong&gt;Description : &lt;/strong&gt;A critical XML External Entity (XXE) injection vulnerability in Apache Camel versions 3.20.0 through 4.7.0 allows remote attackers to perform server-side request forgery (SSRF), access local files, and execute arbitrary code. The vulnerability exists in the camel-xmlsecurity and camel-jaxb components where improper XML parsing configuration enables XXE attacks through maliciously crafted XML payloads. Successful exploitation can lead to disclosure of sensitive files (such as /etc/passwd), internal network reconnaissance, denial of service, and in certain configurations, remote code execution via deserialization attacks. This affects all Maven projects using the vulnerable Camel dependencies with default XML processing configurations.
+&lt;br&gt;
+&lt;strong&gt;Severity:&lt;/strong&gt; 9.9 | CRITICAL
+&lt;br&gt;
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</description><pubDate>Thu, 18 Sep 2025 12:57:00 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-13749</guid></item><item><title>CVE-2025-12345 - SAP Commerce Cloud Authentication Bypass and Remote Code Execution Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-9873</link><description>
 &lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-12345
 &lt;br&gt;
 &lt;strong&gt;Published : &lt;/strong&gt; Sept. 18, 2025, 12:35 p.m. | 1 minute ago
