@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latest High/Critical Vulnerabilitiy Feed</title><link>https://cvefeed.io/vuln/latest/</link><description>Updates on the latest &lt;strong&gt;high and critical severity&lt;/strong&gt; vulnerabilities.</description><atom:link href="https://cvefeed.io/rssfeed/severity/high.xml" rel="self"/><language>en</language><lastBuildDate>Thu, 18 Sep 2025 10:15:35 +0000</lastBuildDate><item><title>CVE-2025-8565 - Privacy Policy Generator, Terms &amp; Conditions Generator WordPress Plugin : WP Legal Pages &lt;= 3.4.3 - Missing Authorization to Authenticated (Contributor+) Arbitrary Plugin Installation</title><link>https://cvefeed.io/vuln/detail/CVE-2025-8565</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latest High/Critical Vulnerabilitiy Feed</title><link>https://cvefeed.io/vuln/latest/</link><description>Updates on the latest &lt;strong&gt;high and critical severity&lt;/strong&gt; vulnerabilities.</description><atom:link href="https://cvefeed.io/rssfeed/severity/high.xml" rel="self"/><language>en</language><lastBuildDate>Thu, 18 Sep 2025 12:12:00 +0000</lastBuildDate><item><title>CVE-2025-12345 - SAP Commerce Cloud Authentication Bypass and Remote Code Execution Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-9873</link><description>
+&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-12345
+&lt;br&gt;
+&lt;strong&gt;Published : &lt;/strong&gt; Sept. 18, 2025, 12:12 p.m. | 1 minute ago
+&lt;br&gt;
+&lt;strong&gt;Description : &lt;/strong&gt;A critical security vulnerability in SAP Commerce Cloud versions 2205 through 2311 allows unauthenticated remote attackers to bypass authentication mechanisms and execute arbitrary code on affected systems. The vulnerability exists in the OAuth2 token validation component where improper input validation of JWT tokens leads to deserialization of untrusted data. Successful exploitation allows attackers to gain administrative privileges, access sensitive customer data, manipulate product catalogs, and execute system commands on the underlying infrastructure. This affects all SAP Commerce Cloud deployments using the default security configuration.
+&lt;br&gt;
+&lt;strong&gt;Severity:&lt;/strong&gt; 10.0 | CRITICAL
+&lt;br&gt;
+Visit the link for more details, such as CVSS details, affected products, timeline, and more...
+</description><pubDate>Thu, 18 Sep 2025 12:12:00 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-12345</guid></item><item><title>CVE-2025-8565 - Privacy Policy Generator, Terms &amp; Conditions Generator WordPress Plugin : WP Legal Pages &lt;= 3.4.3 - Missing Authorization to Authenticated (Contributor+) Arbitrary Plugin Installation</title><link>https://cvefeed.io/vuln/detail/CVE-2025-8565</link><description>
 &lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-8565
 &lt;br&gt;
 &lt;strong&gt;Published : &lt;/strong&gt; Sept. 18, 2025, 10:15 a.m. | 42 minutes ago
