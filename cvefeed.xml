@@ -12,6 +12,23 @@
         <atom:link href="https://www.stepsecurity.io/blog/rss.xml" rel="self"
             type="application/rss+xml" />
         <item>
+            <title>ctrl/tinycolor and 40+ NPM Packages Compromised</title>
+            <link>https://www.stepsecurity.io/blog/ctrl-tinycolor-and-40-npm-packages-compromised</link>
+            <guid>https://www.stepsecurity.io/blog/ctrl-tinycolor-and-40-npm-packages-compromised</guid>
+            <description>The popular @ctrl/tinycolor package with over 2 million weekly downloads
+                has been compromised alongside 40+ other NPM packages in a sophisticated supply
+                chain attack dubbed &quot;Shai-Hulud&quot;. The malware self-propagates across
+                maintainer packages, harvests AWS/GCP/Azure credentials using TruffleHog, and
+                establishes persistence through GitHub Actions backdoors - representing a major
+                escalation in NPM ecosystem threats.</description>
+            <pubDate>Wed, 17 Sep 2025 07:57:29 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68c9a9f07e2bd80bee35b317_Blog-Sept4-20.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68c9a9f07e2bd80bee35b317_Blog-Sept4-20.jpg" />
+        </item>
+        <item>
             <title>8,000 Strong: Harden-Runner&#39;s Growing Impact on CI/CD Security </title>
             <link>
                 https://www.stepsecurity.io/blog/8-000-harden-runners-growing-impact-on-ci-cd-security</link>
