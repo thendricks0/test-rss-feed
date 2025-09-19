@@ -1,289 +1,1240 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latest High/Critical Vulnerabilitiy Feed</title><link>https://cvefeed.io/vuln/latest/</link><description>Updates on the latest &lt;strong&gt;high and critical severity&lt;/strong&gt; vulnerabilities.</description><atom:link href="https://cvefeed.io/rssfeed/severity/high.xml" rel="self"/><language>en</language><lastBuildDate>Thu, 18 Sep 2025 12:57:00 +0000</lastBuildDate><item><title>CVE-2025-13749 - Apache Camel XML External Entity (XXE) Injection and Remote Code Execution Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-13749</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-13749
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 18, 2025, 12:57 p.m. | 1 minute ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;A critical XML External Entity (XXE) injection vulnerability in Apache Camel versions 3.20.0 through 4.7.0 allows remote attackers to perform server-side request forgery (SSRF), access local files, and execute arbitrary code. The vulnerability exists in the camel-xmlsecurity and camel-jaxb components where improper XML parsing configuration enables XXE attacks through maliciously crafted XML payloads. Successful exploitation can lead to disclosure of sensitive files (such as /etc/passwd), internal network reconnaissance, denial of service, and in certain configurations, remote code execution via deserialization attacks. This affects all Maven projects using the vulnerable Camel dependencies with default XML processing configurations.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.9 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Thu, 18 Sep 2025 12:57:00 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-13749</guid></item><item><title>CVE-2025-12345 - SAP Commerce Cloud Authentication Bypass and Remote Code Execution Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-9873</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-12345
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 18, 2025, 12:35 p.m. | 1 minute ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;A critical security vulnerability in SAP Commerce Cloud versions 2205 through 2311 allows unauthenticated remote attackers to bypass authentication mechanisms and execute arbitrary code on affected systems. The vulnerability exists in the OAuth2 token validation component where improper input validation of JWT tokens leads to deserialization of untrusted data. Successful exploitation allows attackers to gain administrative privileges, access sensitive customer data, manipulate product catalogs, and execute system commands on the underlying infrastructure. This affects all SAP Commerce Cloud deployments using the default security configuration.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 10.0 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Thu, 18 Sep 2025 12:35:00 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-12345</guid></item><item><title>CVE-2025-8565 - Privacy Policy Generator, Terms &amp; Conditions Generator WordPress Plugin : WP Legal Pages &lt;= 3.4.3 - Missing Authorization to Authenticated (Contributor+) Arbitrary Plugin Installation</title><link>https://cvefeed.io/vuln/detail/CVE-2025-8565</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-8565
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 18, 2025, 10:15 a.m. | 42 minutes ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;The Privacy Policy Generator, Terms &amp; Conditions Generator WordPress Plugin : WP Legal Pages plugin for WordPress is vulnerable to unauthorized access of functionality due to a missing capability check on the wplp_gdpr_install_plugin_ajax_handler() function in all versions up to, and including, 3.4.3. This makes it possible for authenticated attackers, with Contributor-level access and above, to install arbitrary repository plugins.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 8.1 | HIGH
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Thu, 18 Sep 2025 10:15:35 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-8565</guid></item><item><title>CVE-2025-6237 - Path Traversal and Arbitrary File Deletion in invoke-ai/invokeai</title><link>https://cvefeed.io/vuln/detail/CVE-2025-6237</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-6237
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 18, 2025, 9:15 a.m. | 1 hour, 42 minutes ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;A vulnerability in invokeai version v6.0.0a1 and below allows attackers to perform path traversal and arbitrary file deletion via the GET /api/v1/images/download/{bulk_download_item_name} endpoint. By manipulating the filename arguments, attackers can read and delete any files on the server, including critical system files such as SSH keys, databases, and configuration files. This vulnerability results in high confidentiality, integrity, and availability impacts.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.8 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Thu, 18 Sep 2025 09:15:35 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-6237</guid></item><item><title>CVE-2025-23316 - NVIDIA Triton Inference Server Python Backend Remote Code Execution Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-23316</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-23316
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 10:15 p.m. | 12 hours, 42 minutes ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;NVIDIA Triton Inference Server for Windows and Linux contains a vulnerability in the Python backend, where an attacker could cause a remote code execution by manipulating the model name parameter in the model control APIs. A successful exploit of this vulnerability might lead to remote code execution, denial of service, information disclosure, and data tampering.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.8 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 22:15:37 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-23316</guid></item><item><title>CVE-2025-23268 - NVIDIA Triton Inference Server DALI Code Execution Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-23268</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-23268
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 10:15 p.m. | 12 hours, 42 minutes ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;NVIDIA Triton Inference Server contains a vulnerability in the DALI backend where an attacker may cause an improper input validation issue. A successful exploit of this vulnerability may lead to code execution.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 8.0 | HIGH
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 22:15:37 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-23268</guid></item><item><title>CVE-2025-10644 - Wondershare Repairit SAS Token Incorrect Permission Assignment Authentication Bypass Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-10644</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-10644
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 9:15 p.m. | 13 hours, 42 minutes ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;Wondershare Repairit SAS Token Incorrect Permission Assignment Authentication Bypass Vulnerability. This vulnerability allows remote attackers to bypass authentication on Wondershare Repairit. Authentication is not required to exploit this vulnerability.
-
-The specific flaw exists within the permissions granted to an SAS token. An attacker can leverage this vulnerability to launch a supply-chain attack and execute arbitrary code on customers' endpoints. Was ZDI-CAN-26892.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.4 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 21:15:37 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-10644</guid></item><item><title>CVE-2025-10643 - Wondershare Repairit Incorrect Permission Assignment Authentication Bypass Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-10643</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-10643
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 9:15 p.m. | 13 hours, 42 minutes ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;Wondershare Repairit Incorrect Permission Assignment Authentication Bypass Vulnerability. This vulnerability allows remote attackers to bypass authentication on affected installations of Wondershare Repairit. Authentication is not required to exploit this vulnerability.
-
-The specific flaw exists within the permissions granted to a storage account token. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-26902.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.1 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 21:15:37 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-10643</guid></item><item><title>CVE-2025-59340 - jinjava Sandbox Bypass via JavaType-Based Deserialization</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59340</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-59340
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 8:15 p.m. | 14 hours, 42 minutes ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;jinjava is a Java-based template engine based on django template syntax, adapted to render jinja templates. Priori to 2.8.1, by using mapper.getTypeFactory().constructFromCanonical(), it is possible to instruct the underlying ObjectMapper to deserialize attacker-controlled input into arbitrary classes. This enables the creation of semi-arbitrary class instances without directly invoking restricted methods or class literals. As a result, an attacker can escape the sandbox and instantiate classes such as java.net.URL, opening up the ability to access local files and URLs(e.g., file:///etc/passwd). With further chaining, this primitive can potentially lead to remote code execution (RCE). This vulnerability is fixed in 2.8.1.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.8 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 20:15:36 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-59340</guid></item><item><title>CVE-2025-58766 - Dyad Vulnerable to Remote Code Execution via Top-level Navigation in Preview Window</title><link>https://cvefeed.io/vuln/detail/CVE-2025-58766</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-58766
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 6:15 p.m. | 16 hours, 42 minutes ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;Dyad is a local AI app builder. A critical security vulnerability has been discovered that affected Dyad v0.19.0 and earlier versions that allows attackers to execute arbitrary code on users' systems. The vulnerability affects the application's preview window functionality and can bypass Docker container protections.  An attacker can craft web content that automatically executes when the preview loads. The malicious content can break out of the application's security boundaries and gain control of the system. This has been fixed in Dyad v0.20.0 and later.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.0 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 18:15:52 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-58766</guid></item><item><title>CVE-2025-59304 - Swetrix Web Analytics API Directory Traversal Remote Code Execution</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59304</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-59304
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 5:15 p.m. | 17 hours, 42 minutes ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;A directory traversal issue in Swetrix Web Analytics API 3.1.1 before 7d8b972 allows a remote attacker to achieve Remote Code Execution via a crafted HTTP request.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.8 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 17:15:44 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-59304</guid></item><item><title>CVE-2025-10205 - Predictable Salt and Weak Hashing Algorithm</title><link>https://cvefeed.io/vuln/detail/CVE-2025-10205</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-10205
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 3:15 p.m. | 19 hours, 42 minutes ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;Use of a One-Way Hash with a Predictable Salt vulnerability in ABB FLXEON.This issue affects FLXEON: through 9.3.5. and newer versions
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.4 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 15:15:41 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-10205</guid></item><item><title>CVE-2025-8077 - NeuVector admin account has insecure default password</title><link>https://cvefeed.io/vuln/detail/CVE-2025-8077</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-8077
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 1:15 p.m. | 21 hours, 42 minutes ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;A vulnerability exists in NeuVector versions up to and including 5.4.5, where a fixed string is used as the default password for the built-in `admin` account. If this password is not changed immediately after deployment, any workload with network access within the cluster could use the default credentials to obtain an authentication token. This token can then be used to perform any operation via NeuVector APIs.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.8 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 13:15:34 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-8077</guid></item><item><title>CVE-2025-10439 - SQLi in Yordam Library Automation System</title><link>https://cvefeed.io/vuln/detail/CVE-2025-10439</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-10439
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 12:15 p.m. | 22 hours, 42 minutes ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Yordam Informatics Yordam Library Automation System allows SQL Injection.This issue affects Yordam Library Automation System: from 21.5 &amp; 21.6 before 21.7.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.8 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 12:15:38 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-10439</guid></item><item><title>CVE-2025-10157 - PickleScan Bypasses Unsafe Globals Check Using Submodule Imports</title><link>https://cvefeed.io/vuln/detail/CVE-2025-10157</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-10157
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 12:15 p.m. | 22 hours, 42 minutes ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;A Protection Mechanism Failure vulnerability in mmaitre314 picklescan versions up to and including 0.0.30 allows a remote attacker to bypass the unsafe globals check. This is possible because the scanner performs an exact match for module names, allowing malicious payloads to be loaded via submodules of dangerous packages (e.g., 'asyncio.unix_events' instead of 'asyncio'). 
-
-When the incorrectly considered safe file is loaded after scan, it can lead to the execution of malicious code.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.3 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 12:15:38 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-10157</guid></item><item><title>CVE-2025-10156 - PickleScan Security Bypass via Bad CRC in ZIP Archive</title><link>https://cvefeed.io/vuln/detail/CVE-2025-10156</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-10156
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 11:15 a.m. | 23 hours, 42 minutes ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;An Improper Handling of Exceptional Conditions vulnerability in the ZIP archive scanning component of mmaitre314 picklescan allows a remote attacker to bypass security scans. This is achieved by crafting a ZIP archive containing a file with a bad Cyclic Redundancy Check (CRC), which causes the scanner to halt and fail to analyze the contents for malicious pickle files. When the file incorrectly considered safe is loaded, it can lead to the execution of malicious code.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.3 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 11:15:32 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-10156</guid></item><item><title>CVE-2025-10155 - PickleScan Security Bypass Using Misleading File Extension</title><link>https://cvefeed.io/vuln/detail/CVE-2025-10155</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-10155
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 10:15 a.m. | 1 day ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;An Improper Input Validation vulnerability in the scanning logic of mmaitre314 picklescan versions up to and including 0.0.30 allows a remote attacker to bypass pickle files security checks by supplying a standard pickle file with a PyTorch-related file extension. When the pickle file incorrectly considered safe is loaded, it can lead to the execution of malicious code.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.3 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 10:15:36 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-10155</guid></item><item><title>CVE-2025-59458 - JetBrains Junie Command Injection</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59458</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-59458
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 9:15 a.m. | 1 day, 1 hour ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;In JetBrains Junie before 252.284.66,
-251.284.66,
-243.284.66,
-252.284.61,
-251.284.61,
-243.284.61,
-252.284.50,
-252.284.54,
-251.284.54,
-251.284.50,
-243.284.54,
-243.284.50 code execution was possible due to improper command validation
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 8.3 | HIGH
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 09:15:32 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-59458</guid></item><item><title>CVE-2025-9242 - WatchGuard Firebox iked Out of Bounds Write Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-9242</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-9242
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 8:15 a.m. | 1 day, 2 hours ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;An Out-of-bounds Write vulnerability in WatchGuard Fireware OS may allow a remote unauthenticated attacker to execute arbitrary code. This vulnerability affects both the Mobile User VPN with IKEv2 and the Branch Office VPN using IKEv2 when configured with a dynamic gateway peer.This vulnerability affects Fireware OS 11.10.2 up to and including 11.12.4_Update1, 12.0 up to and including 12.11.3 and 2025.1.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.3 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 08:15:33 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-9242</guid></item><item><title>CVE-2025-9972 - Planet Technology｜Industrial Cellular Gateway - OS Command Injection</title><link>https://cvefeed.io/vuln/detail/CVE-2025-9972</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-9972
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 7:15 a.m. | 1 day, 3 hours ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;The N-Reporter, N-Cloud, and N-Probe developed by N-Partner has an OS Command Injection vulnerability, allowing authenticated remote attackers to inject arbitrary OS commands and execute them on the server.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.8 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 07:15:43 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-9972</guid></item><item><title>CVE-2025-9971 - Planet Technology｜Industrial Cellular Gateway - Missing Authentication</title><link>https://cvefeed.io/vuln/detail/CVE-2025-9971</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-9971
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 7:15 a.m. | 1 day, 3 hours ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;Certain models of Industrial Cellular Gateway developed by Planet Technology have a Missing Authentication vulnerability, allowing unauthenticated remote attackers to manipulate the device via a specific functionality.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 9.8 | CRITICAL
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 07:15:43 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-9971</guid></item><item><title>CVE-2025-9216 - StoreEngine – Powerful WordPress eCommerce Plugin for Payments, Memberships, Affiliates, Sales &amp; More &lt;= 1.5.0 - Authenticated (Subscriber+) Arbitrary File Upload</title><link>https://cvefeed.io/vuln/detail/CVE-2025-9216</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-9216
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 7:15 a.m. | 1 day, 3 hours ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;The StoreEngine – Powerful WordPress eCommerce Plugin for Payments, Memberships, Affiliates, Sales &amp; More plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the import() function in all versions up to, and including, 1.5.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 8.8 | HIGH
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 07:15:42 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-9216</guid></item><item><title>CVE-2025-10058 - WP Import – Ultimate CSV XML Importer for WordPress &lt;= 7.27 - Authenticated (Subscriber+) Arbitrary File Deletion</title><link>https://cvefeed.io/vuln/detail/CVE-2025-10058</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-10058
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 6:15 a.m. | 1 day, 4 hours ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;The WP Import – Ultimate CSV XML Importer for WordPress plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the upload_function() function in all versions up to, and including, 7.27. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php).
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 8.1 | HIGH
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 06:15:45 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-10058</guid></item><item><title>CVE-2025-10057 - WP Import – Ultimate CSV XML Importer for WordPress 7.20 -  7.28 - Authenticated (Subscriber+) Remote Code Execution via Code Injection</title><link>https://cvefeed.io/vuln/detail/CVE-2025-10057</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-10057
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 6:15 a.m. | 1 day, 4 hours ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;The WP Import – Ultimate CSV XML Importer for WordPress plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 7.28. This is due to the write_to_customfile() function writing unfiltered PHP code to a file. This makes it possible for authenticated attackers, with Subscriber-level access and above, to inject the customFunction.php file with PHP code that can be accessed to trigger remote code execution.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 8.8 | HIGH
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 06:15:44 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-10057</guid></item><item><title>CVE-2025-59518 - LemonLDAP::NG Command Injection Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59518</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-59518
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 4:16 a.m. | 1 day, 6 hours ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;In LemonLDAP::NG before 2.16.7 and 2.17 through 2.21 before 2.21.3, OS command injection can occur in the Safe jail. It does not Localize _ during rule evaluation. Thus, an administrator who can edit a rule evaluated by the Safe jail can execute commands on the server.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 8.0 | HIGH
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 04:16:12 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-59518</guid></item><item><title>CVE-2025-59307 - Century Corporation RAID Manager Unquoted Service Path Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-59307</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-59307
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 4:16 a.m. | 1 day, 6 hours ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;RAID Manager provided by Century Corporation registers a Windows service with an unquoted file path. A user with the write permission on the root directory of the system drive may execute arbitrary code with SYSTEM privilege.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 8.4 | HIGH
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 04:16:12 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-59307</guid></item><item><title>CVE-2025-58116 - Aruba OS Command Injection Vulnerability</title><link>https://cvefeed.io/vuln/detail/CVE-2025-58116</link><description>
-&lt;strong&gt;CVE ID : &lt;/strong&gt;CVE-2025-58116
-&lt;br&gt;
-&lt;strong&gt;Published : &lt;/strong&gt; Sept. 17, 2025, 4:16 a.m. | 1 day, 6 hours ago
-&lt;br&gt;
-&lt;strong&gt;Description : &lt;/strong&gt;Improper neutralization of special elements used in an OS command ('OS Command Injection') issue exists in WN-7D36QR and WN-7D36QR/UE. If this vulnerability is exploited, an arbitrary OS command may be executed by a remote authenticated attacker.
-&lt;br&gt;
-&lt;strong&gt;Severity:&lt;/strong&gt; 8.6 | HIGH
-&lt;br&gt;
-Visit the link for more details, such as CVSS details, affected products, timeline, and more...
-</description><pubDate>Wed, 17 Sep 2025 04:16:08 +0000</pubDate><guid>https://cvefeed.io/vuln/detail/CVE-2025-58116</guid></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>Step Security Blog</title>
+        <link>https://www.stepsecurity.io</link>
+        <description>The latest from StepSecurity — practical guidance, product updates, and threat
+            insights to help secure your CI/CD pipelines and stay ahead of supply chain attacks
+</description>
+        <pubDate>Mon, 08 Sep 2025 17:30:13 GMT</pubDate>
+        <generator>Webflow</generator>
+        <atom:link href="https://www.stepsecurity.io/blog/rss.xml" rel="self"
+            type="application/rss+xml" />
+        <item>
+            <title>8,000 Strong: Harden-Runner&#39;s Growing Impact on CI/CD Security </title>
+            <link>
+                https://www.stepsecurity.io/blog/8-000-harden-runners-growing-impact-on-ci-cd-security</link>
+            <guid>
+                https://www.stepsecurity.io/blog/8-000-harden-runners-growing-impact-on-ci-cd-security</guid>
+            <description>StepSecurity’s Harden-Runner now protects 8,000+ repositories with
+                EDR-style runtime monitoring for CI/CD pipelines, stopping supply chain attacks and
+                securing GitHub Actions.</description>
+            <pubDate>Wed, 10 Sep 2025 16:38:46 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68c0cdd1017bf48e8268052a_image%20(26).png"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68c0cdd1017bf48e8268052a_image%20(26).png" />
+        </item>
+        <item>
+            <title>GhostAction Campaign: Over 3,000 Secrets Stolen Through Malicious GitHub
+                Workflows</title>
+            <link>
+                https://www.stepsecurity.io/blog/ghostaction-campaign-over-3-000-secrets-stolen-through-malicious-github-workflows</link>
+            <guid>
+                https://www.stepsecurity.io/blog/ghostaction-campaign-over-3-000-secrets-stolen-through-malicious-github-workflows</guid>
+            <description>GitGuardian researchers discover massive supply chain attack affecting 817
+                repositories across 327 GitHub users. Malicious workflows exfiltrated 3,325 secrets
+                including PyPI, npm, and DockerHub tokens through compromised developer accounts.</description>
+            <pubDate>Wed, 10 Sep 2025 01:33:30 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68c0d55157cb6684bce8a328_Blog-Sept1-11.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68c0d55157cb6684bce8a328_Blog-Sept1-11.jpg" />
+        </item>
+        <item>
+            <title>20+ Popular NPM Packages Compromised (Chalk, Debug, Strip-ANSI, Color-Convert,
+                Wrap-ANSI...)</title>
+            <link>
+                https://www.stepsecurity.io/blog/20-popular-npm-packages-compromised-chalk-debug-strip-ansi-color-convert-wrap-ansi</link>
+            <guid>
+                https://www.stepsecurity.io/blog/20-popular-npm-packages-compromised-chalk-debug-strip-ansi-color-convert-wrap-ansi</guid>
+            <description>Massive NPM supply chain attack targets cryptocurrency users through
+                compromised maintainer account - affecting packages downloaded billions of times
+                weekly including debug, chalk, ansi-styles, color-convert, strip-ansi and 15+ other
+                critical JavaScript packages. Malicious code injected to steal cryptocurrency
+                wallets and redirect blockchain transactions.</description>
+            <pubDate>Wed, 10 Sep 2025 01:32:54 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68c0d52b9181d90c87ba558d_Blog-Sept1-13.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68c0d52b9181d90c87ba558d_Blog-Sept1-13.jpg" />
+        </item>
+        <item>
+            <title>Securing Google Gemini in GitHub Actions with Harden-Runner </title>
+            <link>
+                https://www.stepsecurity.io/blog/securing-google-gemini-in-github-actions-with-harden-runner</link>
+            <guid>
+                https://www.stepsecurity.io/blog/securing-google-gemini-in-github-actions-with-harden-runner</guid>
+            <description>Learn how to secure Google Gemini in GitHub Actions with Harden-Runner,
+                combining observability with runtime monitoring for CI/CD security</description>
+            <pubDate>Wed, 10 Sep 2025 00:25:13 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68c0becb701e60e4fb1d4dcc_Gemini-08.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68c0becb701e60e4fb1d4dcc_Gemini-08.jpg" />
+        </item>
+        <item>
+            <title>Introducing the NPM Package Cooldown Check </title>
+            <link>https://www.stepsecurity.io/blog/introducing-the-npm-package-cooldown-check</link>
+            <guid>https://www.stepsecurity.io/blog/introducing-the-npm-package-cooldown-check</guid>
+            <description>We’re excited to announce the release of our NPM Package Cooldown Check,
+                which helps teams block newly released, potentially compromised dependencies, while
+                still allowing emergency fixes and integrating seamlessly into GitHub workflows</description>
+            <pubDate>Mon, 08 Sep 2025 17:30:10 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68bab5d8043d3b30746df377_PR_Cover_1-01.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68bab5d8043d3b30746df377_PR_Cover_1-01.jpg" />
+        </item>
+        <item>
+            <title>Supply Chain Security Alert: Popular Nx Build System Package Compromised with
+                Data-Stealing Malware</title>
+            <link>
+                https://www.stepsecurity.io/blog/supply-chain-security-alert-popular-nx-build-system-package-compromised-with-data-stealing-malware</link>
+            <guid>
+                https://www.stepsecurity.io/blog/supply-chain-security-alert-popular-nx-build-system-package-compromised-with-data-stealing-malware</guid>
+            <description>Nx package on npm hijacked to steal cryptocurrency wallets, GitHub/npm
+                tokens, SSH keys, and environment secrets - and is the first documented case of
+                malware weaponizing AI CLI tools for reconnaissance and data exfiltration.</description>
+            <pubDate>Mon, 08 Sep 2025 17:30:10 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68bea4d7bf59f638ab53609f_2Blog-09%20(1).jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68bea4d7bf59f638ab53609f_2Blog-09%20(1).jpg" />
+        </item>
+        <item>
+            <title>Securing GitHub Copilot in GitHub Actions with Harden-Runner</title>
+            <link>
+                https://www.stepsecurity.io/blog/securing-github-copilot-in-github-actions-with-harden-runner</link>
+            <guid>
+                https://www.stepsecurity.io/blog/securing-github-copilot-in-github-actions-with-harden-runner</guid>
+            <description>Secure GitHub Copilot in CI/CD with StepSecurity Harden-Runner. Gain
+                runtime visibility, block threats, and achieve true defense-in-depth.</description>
+            <pubDate>Mon, 08 Sep 2025 17:30:10 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/687e1a69daed3dcd68778a0e_2_Blog-02.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/687e1a69daed3dcd68778a0e_2_Blog-02.jpg" />
+        </item>
+        <item>
+            <title>Calculate Your CI/CD Security ROI with StepSecurity&#39;s New ROI Calculator </title>
+            <link>
+                https://www.stepsecurity.io/blog/calculate-your-ci-cd-security-roi-with-stepsecuritys-new-roi-calculator</link>
+            <guid>
+                https://www.stepsecurity.io/blog/calculate-your-ci-cd-security-roi-with-stepsecuritys-new-roi-calculator</guid>
+            <description>The ROI Calculator provides instant visibility into your GitHub Actions
+                security gaps and quantifies the value of addressing them. </description>
+            <pubDate>Mon, 08 Sep 2025 16:44:18 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/686fd5204a50104e5942d4eb_roi-02.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/686fd5204a50104e5942d4eb_roi-02.jpg" />
+        </item>
+        <item>
+            <title>Another npm Supply Chain Attack: The &#39;is&#39; Package Compromise</title>
+            <link>
+                https://www.stepsecurity.io/blog/another-npm-supply-chain-attack-the-is-package-compromise</link>
+            <guid>
+                https://www.stepsecurity.io/blog/another-npm-supply-chain-attack-the-is-package-compromise</guid>
+            <description>npm &#39;is&#39; package versions 3.3.1 and 5.0.0 compromised - critical
+                utility with millions of weekly downloads falls victim to expanding phishing
+                campaign</description>
+            <pubDate>Fri, 05 Sep 2025 17:47:46 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/688112ff9e01b0b346e21d0b_1Blog-04.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/688112ff9e01b0b346e21d0b_1Blog-04.jpg" />
+        </item>
+        <item>
+            <title>How StepSecurity Harden Runner Detected Unexpected Microsoft Defender
+                Installation on GitHub-hosted Ubuntu Runners </title>
+            <link>
+                https://www.stepsecurity.io/blog/how-stepsecurity-harden-runner-detected-unexpected-microsoft-defender-installation-on-github-hosted-ubuntu-runners</link>
+            <guid>
+                https://www.stepsecurity.io/blog/how-stepsecurity-harden-runner-detected-unexpected-microsoft-defender-installation-on-github-hosted-ubuntu-runners</guid>
+            <description>Microsoft Defender was unexpectedly installed on multiple workflow runs
+                from mid-July through mid-August, causing abnormal network traffic. StepSecurity
+                Harden Runner detected this infrastructure anomaly within hours, and GitHub Support
+                has since resolved the issue </description>
+            <pubDate>Thu, 04 Sep 2025 18:20:51 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68b6f871d01b97c5bb490604_image%20(23).png"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68b6f871d01b97c5bb490604_image%20(23).png" />
+        </item>
+        <item>
+            <title>StepSecurity Harden Runner: Detect source code tampering during the build process</title>
+            <link>
+                https://www.stepsecurity.io/blog/stepsecurity-harden-runner-detect-source-code-tampering-during-the-build-process</link>
+            <guid>
+                https://www.stepsecurity.io/blog/stepsecurity-harden-runner-detect-source-code-tampering-during-the-build-process</guid>
+            <description>Learn how StepSecurity Harden-Runner detects source code tampering during
+                the build process. Discover how real-time monitoring enhances CI/CD security by
+                preventing unauthorized code modifications.</description>
+            <pubDate>Wed, 27 Aug 2025 05:28:47 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68ada877eabbfa43908abfd2_2_1.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68ada877eabbfa43908abfd2_2_1.jpg" />
+        </item>
+        <item>
+            <title>Suspicious Tag Movement in AWS’s GitHub Action: What Happened and Why It Matters </title>
+            <link>https://www.stepsecurity.io/blog/suspicious-tag-movement-in-aws-github-action</link>
+            <guid>https://www.stepsecurity.io/blog/suspicious-tag-movement-in-aws-github-action</guid>
+            <description>How an AWS release rollback triggered the same red flags as a supply chain
+                attack — and why treating every tag movement as suspicious is key to protecting your
+                CI/CD pipelines </description>
+            <pubDate>Fri, 15 Aug 2025 21:01:41 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/689d5b62693f2a65cb8c64b0_image%20(19).png"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/689d5b62693f2a65cb8c64b0_image%20(19).png" />
+        </item>
+        <item>
+            <title>When &#39;Changed Files&#39; Changed Everything: Our Black Hat 2025 Presentation
+                on the tj-actions Supply Chain Breach</title>
+            <link>
+                https://www.stepsecurity.io/blog/when-changed-files-changed-everything-our-black-hat-2025-presentation-on-the-tj-actions-supply-chain-breach</link>
+            <guid>
+                https://www.stepsecurity.io/blog/when-changed-files-changed-everything-our-black-hat-2025-presentation-on-the-tj-actions-supply-chain-breach</guid>
+            <description>We reveal how baseline-driven monitoring caught one of 2025&#39;s most
+                consequential CI/CD supply chain attacks, exposing the vulnerability of 23,000+
+                repositories including those from GitHub, Meta, and Microsoft.</description>
+            <pubDate>Fri, 15 Aug 2025 21:01:41 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/689e264bf65214a61f1bcde5_Blog-Aug-07.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/689e264bf65214a61f1bcde5_Blog-Aug-07.jpg" />
+        </item>
+        <item>
+            <title>Lessons from AWS CodeBuild’s Memory-Dump Incident (CVE-2025-8217)</title>
+            <link>
+                https://www.stepsecurity.io/blog/lessons-from-aws-codebuilds-memory-dump-incident-cve-2025-8217</link>
+            <guid>
+                https://www.stepsecurity.io/blog/lessons-from-aws-codebuilds-memory-dump-incident-cve-2025-8217</guid>
+            <description>How threat actors exploited AWS CodeBuild pipelines by stealing secrets
+                from CI/CD memory—and the proactive defenses organizations can deploy to detect,
+                respond to, and prevent such attacks.</description>
+            <pubDate>Sat, 09 Aug 2025 16:59:49 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68885a53a86ceb44f2a1cb10_Blog-AWS-05.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68885a53a86ceb44f2a1cb10_Blog-AWS-05.jpg" />
+        </item>
+        <item>
+            <title>Supply Chain Security Alert: num2words PyPI Package Shows Signs of Compromise</title>
+            <link>
+                https://www.stepsecurity.io/blog/supply-chain-security-alert-num2words-pypi-package-shows-signs-of-compromise</link>
+            <guid>
+                https://www.stepsecurity.io/blog/supply-chain-security-alert-num2words-pypi-package-shows-signs-of-compromise</guid>
+            <description>Popular Python Package num2words v0.5.15 Published Without Repository Tag,
+                Linked to Known Threat Actor</description>
+            <pubDate>Sat, 09 Aug 2025 16:59:49 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/688a8fbfae67709698bcc839_Blog-2-07.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/688a8fbfae67709698bcc839_Blog-2-07.jpg" />
+        </item>
+        <item>
+            <title>anthropics/claude-code-action Security: How to Secure Claude Code in GitHub
+                Actions with Harden-Runner </title>
+            <link>
+                https://www.stepsecurity.io/blog/anthropics-claude-code-action-security-how-to-secure-claude-code-in-github-actions-with-harden-runner</link>
+            <guid>
+                https://www.stepsecurity.io/blog/anthropics-claude-code-action-security-how-to-secure-claude-code-in-github-actions-with-harden-runner</guid>
+            <description>Unlike GitHub Copilot&#39;s built-in network firewall,
+                anthropics/claude-code-action GitHub action operates in GitHub Actions without
+                network restrictions by default. Complete guide to implementing Claude Code in
+                GitHub Actions with runtime security monitoring using Harden-Runner.</description>
+            <pubDate>Sat, 09 Aug 2025 16:59:49 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/687e1cf943ab08c19af48fbf_3_blog-06.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/687e1cf943ab08c19af48fbf_3_blog-06.jpg" />
+        </item>
+        <item>
+            <title>When AI Meets CI/CD: Coding Agents in GitHub Actions Pose Hidden Security Risks </title>
+            <link>
+                https://www.stepsecurity.io/blog/when-ai-meets-ci-cd-coding-agents-in-github-actions-pose-hidden-security-risks</link>
+            <guid>
+                https://www.stepsecurity.io/blog/when-ai-meets-ci-cd-coding-agents-in-github-actions-pose-hidden-security-risks</guid>
+            <description>As organizations integrate AI coding agents into their development
+                pipelines, new security considerations emerge. While these tools accelerate
+                development, they require thoughtful security approaches to protect against novel
+                attack vectors like Rules File Backdoor attacks and GITHUB_TOKEN compromise.</description>
+            <pubDate>Sat, 09 Aug 2025 16:59:49 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/687e171b9cfac9c8f5565281_Hero.png"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/687e171b9cfac9c8f5565281_Hero.png" />
+        </item>
+        <item>
+            <title>Supply Chain Security Alert: eslint-config-prettier Package Shows Signs of
+                Compromise</title>
+            <link>
+                https://www.stepsecurity.io/blog/supply-chain-security-alert-eslint-config-prettier-package-shows-signs-of-compromise</link>
+            <guid>
+                https://www.stepsecurity.io/blog/supply-chain-security-alert-eslint-config-prettier-package-shows-signs-of-compromise</guid>
+            <description>We are currently investigating a potential supply chain security incident
+                involving the eslint-config-prettier npm package. This widely-used package, which
+                helps developers maintain consistent code formatting by turning off ESLint rules
+                that conflict with Prettier, appears to have had multiple versions published with
+                suspicious modifications.</description>
+            <pubDate>Sat, 09 Aug 2025 16:59:49 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/688112b44af6232f37f90474_1Blog-02.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/688112b44af6232f37f90474_1Blog-02.jpg" />
+        </item>
+        <item>
+            <title>The GitHub Warning Everyone Ignores: &#39;This Commit Does Not Belong to Any
+                Branch&#39;</title>
+            <link>
+                https://www.stepsecurity.io/blog/the-github-warning-everyone-ignores-this-commit-does-not-belong-to-any-branch</link>
+            <guid>
+                https://www.stepsecurity.io/blog/the-github-warning-everyone-ignores-this-commit-does-not-belong-to-any-branch</guid>
+            <description>Several popular GitHub Actions have release processes where the release
+                commit does not belong to any branch on the action repository.</description>
+            <pubDate>Sat, 09 Aug 2025 16:59:49 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68911d72b94fc6d3f82af6d1_Screenshot%202025-08-04%20at%201.51.40%E2%80%AFPM.png"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68911d72b94fc6d3f82af6d1_Screenshot%202025-08-04%20at%201.51.40%E2%80%AFPM.png" />
+        </item>
+        <item>
+            <title>8 GitHub Actions Secrets Management Best Practices to Follow</title>
+            <link>https://www.stepsecurity.io/blog/github-actions-secrets-management-best-practices</link>
+            <guid>https://www.stepsecurity.io/blog/github-actions-secrets-management-best-practices</guid>
+            <description>Discover GitHub Actions secrets management best practices to protect
+                sensitive information in your CI/CD pipelines. Learn how to securely store, use, and
+                manage secrets with actionable tips from StepSecurity.</description>
+            <pubDate>Sat, 09 Aug 2025 16:59:49 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68904759fff159a9630ae833_Screenshot%202025-08-03%20at%2010.38.21%E2%80%AFPM.png"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68904759fff159a9630ae833_Screenshot%202025-08-03%20at%2010.38.21%E2%80%AFPM.png" />
+        </item>
+        <item>
+            <title>reviewdog GitHub Actions are compromised</title>
+            <link>https://www.stepsecurity.io/blog/reviewdog-github-actions-are-compromised</link>
+            <guid>https://www.stepsecurity.io/blog/reviewdog-github-actions-are-compromised</guid>
+            <description>reviewdog GitHub Actions are compromised</description>
+            <pubDate>Tue, 08 Jul 2025 18:04:28 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/67da754587e31cff37334e7e_image%20(12).avif"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/67da754587e31cff37334e7e_image%20(12).avif" />
+        </item>
+        <item>
+            <title>Harden-Runner detection: tj-actions/changed-files action is compromised</title>
+            <link>
+                https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised</link>
+            <guid>
+                https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised</guid>
+            <description>tj-actions/changed-files</description>
+            <pubDate>Tue, 08 Jul 2025 18:02:35 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/67d49bef6f5fb6e11bb8603e_677798ebb91f76767f462697_tj-actions-cover-p-1080.avif"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/67d49bef6f5fb6e11bb8603e_677798ebb91f76767f462697_tj-actions-cover-p-1080.avif" />
+        </item>
+        <item>
+            <title>7,000 Open-Source Projects Now Secured by Harden-Runner </title>
+            <link>
+                https://www.stepsecurity.io/blog/7-000-open-source-projects-now-secured-by-harden-runner-</link>
+            <guid>
+                https://www.stepsecurity.io/blog/7-000-open-source-projects-now-secured-by-harden-runner-</guid>
+            <description>StepSecurity’s Harden-Runner now protects over 7,000 GitHub repositories
+                with real-time CI/CD runtime monitoring, threat detection, and supply chain security
+                enforcement—backed by features like impostor commit alerts, process-based
+                detections, and GitLab support.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Replace Third-Party Actions with StepSecurity Maintained Actions via Automated
+                Pull Requests </title>
+            <link>
+                https://www.stepsecurity.io/blog/replace-third-party-actions-with-stepsecurity-maintained-actions-via-automated-pull-requests</link>
+            <guid>
+                https://www.stepsecurity.io/blog/replace-third-party-actions-with-stepsecurity-maintained-actions-via-automated-pull-requests</guid>
+            <description>Policy Driven PRs now upgrade third-party Actions to StepSecurity
+                Maintained versions across your entire organization</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>StepSecurity Is Now Available on AWS Marketplace </title>
+            <link>https://www.stepsecurity.io/blog/stepsecurity-is-now-available-on-aws-marketplace</link>
+            <guid>https://www.stepsecurity.io/blog/stepsecurity-is-now-available-on-aws-marketplace</guid>
+            <description>The StepSecurity App is now available on AWS Marketplace—simplifying
+                procurement, deployment, and CI/CD security in one place</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Introducing StepSecurity Artifact Monitor: Detect Unauthorized Software Releases
+                in minutes, not months</title>
+            <link>
+                https://www.stepsecurity.io/blog/introducing-stepsecurity-artifact-monitor-detect-unauthorized-software-releases-in-minutes-not-months</link>
+            <guid>
+                https://www.stepsecurity.io/blog/introducing-stepsecurity-artifact-monitor-detect-unauthorized-software-releases-in-minutes-not-months</guid>
+            <description>StepSecurity Artifact Monitoring continuously watches your artifact
+                registries to verify every release follows your approved CI/CD process. When
+                attackers bypass your secure pipeline using compromised credentials, you&#39;ll know
+                within minutes instead of months</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Introducing Workflow Run Policies: Guardrails for Blocking Non-Compliant GitHub
+                Actions Runs </title>
+            <link>
+                https://www.stepsecurity.io/blog/introducing-workflow-run-policies-guardrails-for-blocking-non-compliant-github-actions-runs</link>
+            <guid>
+                https://www.stepsecurity.io/blog/introducing-workflow-run-policies-guardrails-for-blocking-non-compliant-github-actions-runs</guid>
+            <description>Workflow Run Policies enable you to block non-compliant GitHub Actions
+                workflow runs, helping security and platform teams stop risky workflows before they
+                execute </description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Harden-Runner Detects New Traffic to release-assets.githubusercontent.com Across
+                Multiple Customers </title>
+            <link>
+                https://www.stepsecurity.io/blog/harden-runner-detects-new-traffic-to-release-assets-githubusercontent-com-across-multiple-customers</link>
+            <guid>
+                https://www.stepsecurity.io/blog/harden-runner-detects-new-traffic-to-release-assets-githubusercontent-com-across-multiple-customers</guid>
+            <description>StepSecurity&#39;s Harden-Runner detected unexpected traffic to
+                release-assets.githubusercontent.com across multiple GitHub Actions workflows,
+                prompting a swift investigation. Learn how baseline monitoring caught this change,
+                why it matters for CI/CD security, and how to stay protected.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Grafana GitHub Actions Security Incident</title>
+            <link>https://www.stepsecurity.io/blog/grafana-github-actions-security-incident</link>
+            <guid>https://www.stepsecurity.io/blog/grafana-github-actions-security-incident</guid>
+            <description>On Saturday, April 26, 2025, Grafana Labs disclosed that an unauthorized
+                user leveraged a vulnerability in a GitHub Actions workflow within a public Grafana
+                Labs repository. This led to the exposure of a small number of secrets. Grafana Labs
+                stated that their detections immediately triggered alerts, and the team responded by
+                mitigating the vulnerability, rotating keys, and verifying that there was no access
+                to production systems or data. </description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/680ed0ae5b46e5449240d968_grafana_blog_images.avif"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/680ed0ae5b46e5449240d968_grafana_blog_images.avif" />
+        </item>
+        <item>
+            <title>Export Harden-Runner Security Insights and Detections to Amazon S3 </title>
+            <link>
+                https://www.stepsecurity.io/blog/export-harden-runner-security-insights-and-detections-to-amazon-s3</link>
+            <guid>
+                https://www.stepsecurity.io/blog/export-harden-runner-security-insights-and-detections-to-amazon-s3</guid>
+            <description>Export Harden-Runner security insights and detections to Amazon S3 for
+                real-time analysis, long-term storage, and seamless SIEM integration.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Evolving Harden-Runner’s disable-sudo Policy for Improved Runner Security</title>
+            <link>
+                https://www.stepsecurity.io/blog/evolving-harden-runners-disable-sudo-policy-for-improved-runner-security</link>
+            <guid>
+                https://www.stepsecurity.io/blog/evolving-harden-runners-disable-sudo-policy-for-improved-runner-security</guid>
+            <description>harden-runner</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/680694d749dbc9057647e1be_Screenshot%202025-04-21%20at%2011.56.05%E2%80%AFAM.png"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/680694d749dbc9057647e1be_Screenshot%202025-04-21%20at%2011.56.05%E2%80%AFAM.png" />
+        </item>
+        <item>
+            <title>Announcing Policy-Driven Automated Pull Requests for CI/CD Misconfiguration
+                Remediation</title>
+            <link>
+                https://www.stepsecurity.io/blog/announcing-policy-driven-automated-pull-requests-for-ci-cd-misconfiguration-remediation</link>
+            <guid>
+                https://www.stepsecurity.io/blog/announcing-policy-driven-automated-pull-requests-for-ci-cd-misconfiguration-remediation</guid>
+            <description>Announcing Policy-Driven Automated Pull Requests for CI/CD Misconfiguration
+                Remediation </description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/67e47b207a2ccf7c2f8b83b6_pullrq-29.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/67e47b207a2ccf7c2f8b83b6_pullrq-29.jpg" />
+        </item>
+        <item>
+            <title>Announcing StepSecurity’s Integration with RunsOn: Secure and Optimized CI/CD
+                Pipelines </title>
+            <link>https://www.stepsecurity.io/blog/announcing-stepsecuritys-integration-with-runson</link>
+            <guid>https://www.stepsecurity.io/blog/announcing-stepsecuritys-integration-with-runson</guid>
+            <description>runson,stepsecurity</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/67c0a15e337e72233a8f7fd7_image%20(9).png"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/67c0a15e337e72233a8f7fd7_image%20(9).png" />
+        </item>
+        <item>
+            <title>Secure Repo Just Got Better: New Features for GitHub Actions Security Best
+                Practices </title>
+            <link>
+                https://www.stepsecurity.io/blog/new-features-for-github-actions-security-best-practices</link>
+            <guid>
+                https://www.stepsecurity.io/blog/new-features-for-github-actions-security-best-practices</guid>
+            <description>GitHub Actions Security</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/67be3880e1183aa383ac2ead_SecurityRepo-Inside.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/67be3880e1183aa383ac2ead_SecurityRepo-Inside.jpg" />
+        </item>
+        <item>
+            <title>Why Compliance Auditors Are Looking at Your CI/CD Runners - And How to Prepare</title>
+            <link>
+                https://www.stepsecurity.io/blog/why-compliance-auditors-are-looking-at-your-ci-cd-runners-and-how-to-prepare</link>
+            <guid>
+                https://www.stepsecurity.io/blog/why-compliance-auditors-are-looking-at-your-ci-cd-runners-and-how-to-prepare</guid>
+            <description>CI/CD runners are a critical but often overlooked security risk. Learn how
+                unmonitored runners can expose your pipelines to supply chain attacks and compliance
+                gaps (PCI-DSS, SOC 2, HIPAA, ISO 27001). Discover how StepSecurity Harden-Runner
+                enhances CI/CD security with real-time monitoring, egress control, and process
+                tracking.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/67ab92e7d37e7bf8d3ea5678_image%20(8).png"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/67ab92e7d37e7bf8d3ea5678_image%20(8).png" />
+        </item>
+        <item>
+            <title>Harden-Runner Flags Anomalous Outbound Call, Leading to Docker Documentation
+                Update</title>
+            <link>
+                https://www.stepsecurity.io/blog/harden-runner-flags-anomalous-outbound-call-leading-to-docker-documentation-update</link>
+            <guid>
+                https://www.stepsecurity.io/blog/harden-runner-flags-anomalous-outbound-call-leading-to-docker-documentation-update</guid>
+            <description>Harden-Runner detected an unexpected outbound call from Docker across
+                multiple customer environments. Surprisingly, it wasn’t listed in Docker’s allow
+                list, and no EDR tool flagged it. Here’s how we identified it, reported it, and got
+                it added to Docker’s documentation. </description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/67a4d0988eee726745a53406_image%20(6).png"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/67a4d0988eee726745a53406_image%20(6).png" />
+        </item>
+        <item>
+            <title>StepSecurity Harden-Runner Now Secures GitHub Actions Workflows for Over 5,000
+                Open Source Projects</title>
+            <link>
+                https://www.stepsecurity.io/blog/stepsecurity-harden-runner-secures-over-5-000-open-source-projects</link>
+            <guid>
+                https://www.stepsecurity.io/blog/stepsecurity-harden-runner-secures-over-5-000-open-source-projects</guid>
+            <description>StepSecurity Harden-Runner secures over 5,000 open-source GitHub Actions
+                workflows! Learn how it prevents CI/CD supply chain attacks, integrates with GitHub
+                Checks, and provides real-time security insights.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>2024 in Review: The Evolution of CI/CD Security &amp; What&#39;s Next</title>
+            <link>
+                https://www.stepsecurity.io/blog/2024-in-review-the-evolution-of-ci-cd-security-whats-next</link>
+            <guid>
+                https://www.stepsecurity.io/blog/2024-in-review-the-evolution-of-ci-cd-security-whats-next</guid>
+            <description>Discover the key developments in CI/CD security in 2024, including major
+                incidents, real-world case studies, and emerging trends for 2025. Learn how
+                StepSecurity is driving innovation to secure CI/CD pipelines with proactive
+                solutions.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>GitHub Actions Pwn Request Vulnerability</title>
+            <link>https://www.stepsecurity.io/blog/github-actions-pwn-request-vulnerability</link>
+            <guid>https://www.stepsecurity.io/blog/github-actions-pwn-request-vulnerability</guid>
+            <description>Learn about the &#39;Pwn Request&#39; vulnerability in GitHub Actions, its
+                risks, and how to secure workflows from exploitation. Discover best practices and
+                tools like StepSecurity to protect against CI/CD threats.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Prevent Ultralytics Style CI/CD Security Attacks with Network Security Controls</title>
+            <link>
+                https://www.stepsecurity.io/blog/prevent-ultralytics-style-ci-cd-security-attacks-with-network-security-controls</link>
+            <guid>
+                https://www.stepsecurity.io/blog/prevent-ultralytics-style-ci-cd-security-attacks-with-network-security-controls</guid>
+            <description>Discover how a CI/CD vulnerability in Ultralytics&#39; GitHub Actions was
+                exploited to inject a cryptominer, exfiltrate secrets, and poison build caches.
+                Learn how StepSecurity Harden-Runner detects and mitigates such threats with
+                advanced runtime monitoring and network egress controls, safeguarding CI/CD
+                pipelines from supply chain attacks.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6759305eb291f209a7049ed6_Ultralytics%20StepSecurity%20Blog%20Cover.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6759305eb291f209a7049ed6_Ultralytics%20StepSecurity%20Blog%20Cover.jpg" />
+        </item>
+        <item>
+            <title>PyTorch Supply Chain Compromise</title>
+            <link>https://www.stepsecurity.io/blog/pytorch-supply-chain-compromise</link>
+            <guid>https://www.stepsecurity.io/blog/pytorch-supply-chain-compromise</guid>
+            <description>Explore how a vulnerability in PyTorch&#39;s CI/CD pipeline exposed
+                critical risks of self-hosted runners, enabling attacks on secrets, software
+                releases, and cloud resources. Learn prevention strategies with StepSecurity&#39;s
+                Harden Runner.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6756cf018d1fd51eb685ad90_pytorch-compromise-blog-cover.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6756cf018d1fd51eb685ad90_pytorch-compromise-blog-cover.jpg" />
+        </item>
+        <item>
+            <title>Unified Network Egress View: Centralize GitHub Actions Network Destinations for
+                Your Enterprise</title>
+            <link>
+                https://www.stepsecurity.io/blog/unified-network-egress-view-centralize-github-actions-network-destinations-for-your-enterprise</link>
+            <guid>
+                https://www.stepsecurity.io/blog/unified-network-egress-view-centralize-github-actions-network-destinations-for-your-enterprise</guid>
+            <description>Discover StepSecurity’s Unified Network Egress View for GitHub Actions.
+                Learn how to centralize and monitor network destinations across your enterprise to
+                enhance CI/CD security and prevent data exfiltration.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Top 2024 Predictions for CI/CD Security</title>
+            <link>https://www.stepsecurity.io/blog/top-2024-predictions-for-ci-cd-security</link>
+            <guid>https://www.stepsecurity.io/blog/top-2024-predictions-for-ci-cd-security</guid>
+            <description>Explore key CI/CD security trends for 2024, including shifts to modern
+                platforms, third-party component risks, rising security incidents, and the growing
+                need for secure pipelines. Learn how to protect your organization from evolving
+                threats in the CI/CD landscape.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Uniting Developers and Security: Celebrating the Success of 500+ Open Source
+                Projects Using StepSecurity&#39;s Orchestration Platform</title>
+            <link>
+                https://www.stepsecurity.io/blog/uniting-developers-and-security-celebrating-the-success-of-500-open-source-projects-using-stepsecuritys-orchestration-platform</link>
+            <guid>
+                https://www.stepsecurity.io/blog/uniting-developers-and-security-celebrating-the-success-of-500-open-source-projects-using-stepsecuritys-orchestration-platform</guid>
+            <description>StepSecurity&#39;s orchestration platform is now securing 500+ open-source
+                projects! Celebrate this milestone and learn how our platform unites developers and
+                security teams to protect CI/CD workflows.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>5 Effective Third-Party GitHub Actions Governance Best Practices</title>
+            <link>
+                https://www.stepsecurity.io/blog/third-party-github-actions-governance-best-practices</link>
+            <guid>
+                https://www.stepsecurity.io/blog/third-party-github-actions-governance-best-practices</guid>
+            <description>Secure your GitHub workflows with best practices for managing third-party
+                GitHub Actions. Learn about risks, policies, code auditing, forking, pinning, and
+                author verification to enhance CI/CD security.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>StepSecurity Recognized Among CRN’s &quot;10 Hottest DevOps Startups Of
+                2024&quot;</title>
+            <link>
+                https://www.stepsecurity.io/blog/stepsecurity-recognized-among-crns-10-hottest-devops-startups-of-2024</link>
+            <guid>
+                https://www.stepsecurity.io/blog/stepsecurity-recognized-among-crns-10-hottest-devops-startups-of-2024</guid>
+            <description>StepSecurity is honored to be recognized among CRN&#39;s 10 Hottest DevOps
+                Startups of 2024! Discover how we&#39;re transforming CI/CD security and protecting
+                GitHub Actions workflows worldwide.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Streamline Your GitHub Actions Workflows with StepSecurity’s Latest Feature</title>
+            <link>
+                https://www.stepsecurity.io/blog/streamline-your-github-actions-workflows-with-stepsecurity</link>
+            <guid>
+                https://www.stepsecurity.io/blog/streamline-your-github-actions-workflows-with-stepsecurity</guid>
+            <description>Streamline your GitHub Actions workflows with StepSecurity! Learn how to
+                automate security best practices, manage token permissions, and protect your CI/CD
+                pipelines from supply chain attacks.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>StepSecurity&#39;s Catalog of Fixes</title>
+            <link>https://www.stepsecurity.io/blog/stepsecuritys-catalog-of-fixes</link>
+            <guid>https://www.stepsecurity.io/blog/stepsecuritys-catalog-of-fixes</guid>
+            <description>Explore StepSecurity&#39;s Catalog of Fixes, a comprehensive resource to
+                help developers automate security fixes in GitHub Actions workflows. Learn how to
+                improve CI/CD security with actionable solutions.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>StepSecurity Steps Up the Security Game with SOC 2 Type 2 Compliance</title>
+            <link>
+                https://www.stepsecurity.io/blog/stepsecurity-steps-up-security-game-with-soc-2-type-2-compliance</link>
+            <guid>
+                https://www.stepsecurity.io/blog/stepsecurity-steps-up-security-game-with-soc-2-type-2-compliance</guid>
+            <description>StepSecurity has achieved SOC 2 Type 2 compliance, strengthening its
+                commitment to security and data protection. Learn how this milestone enhances trust
+                and ensures secure CI/CD solutions for organizations.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>StepSecurity&#39;s Alignment with CISA&#39;s CI/CD Security Guidance</title>
+            <link>
+                https://www.stepsecurity.io/blog/stepsecuritys-alignment-with-cisas-ci-cd-security-guidance</link>
+            <guid>
+                https://www.stepsecurity.io/blog/stepsecuritys-alignment-with-cisas-ci-cd-security-guidance</guid>
+            <description>Learn how StepSecurity aligns with CISA&#39;s CI/CD security guidance to
+                help organizations protect their CI/CD pipelines. Discover key security practices
+                and how StepSecurity automates compliance.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>StepSecurity Joins the Open Source Security Foundation (OpenSSF)</title>
+            <link>
+                https://www.stepsecurity.io/blog/stepsecurity-joins-the-open-source-security-foundation-openssf</link>
+            <guid>
+                https://www.stepsecurity.io/blog/stepsecurity-joins-the-open-source-security-foundation-openssf</guid>
+            <description>StepSecurity has joined the Open Source Security Foundation (OpenSSF)!
+                Learn how this collaboration strengthens our mission to enhance open-source software
+                security and protect CI/CD pipelines.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>StepSecurity&#39;s Big Step: Announcing Our $3M Seed Funding!</title>
+            <link>https://www.stepsecurity.io/blog/stepsecurity-seed-funding</link>
+            <guid>https://www.stepsecurity.io/blog/stepsecurity-seed-funding</guid>
+            <description>StepSecurity secures $3M seed funding to revolutionize CI/CD pipeline
+                security. Learn about our mission, unique approach, and roadmap to protect
+                open-source and enterprise CI/CD environments.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>StepSecurity Harden-Runner Featured in the GitHub Action in Action Book</title>
+            <link>
+                https://www.stepsecurity.io/blog/stepsecurity-harden-runner-featured-in-the-github-action-in-action-book</link>
+            <guid>
+                https://www.stepsecurity.io/blog/stepsecurity-harden-runner-featured-in-the-github-action-in-action-book</guid>
+            <description>StepSecurity Harden-Runner is featured in the book GitHub Actions in
+                Action! Learn how this innovative tool enhances CI/CD security by automating
+                workflow protection and enabling secure GitHub Actions environments.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>StepSecurity Harden-Runner Now Secures Over 4,000 Open Source Repositories</title>
+            <link>
+                https://www.stepsecurity.io/blog/stepsecurity-harden-runner-now-secures-over-4-000-open-source-repositories</link>
+            <guid>
+                https://www.stepsecurity.io/blog/stepsecurity-harden-runner-now-secures-over-4-000-open-source-repositories</guid>
+            <description>StepSecurity Harden-Runner now secures over 4,000 open-source repositories!
+                Discover how this milestone reflects the growing adoption of CI/CD security
+                solutions to protect workflows and prevent supply chain attacks.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>StepSecurity Harden Runner Now Supports Wildcard Domains in Block Mode</title>
+            <link>
+                https://www.stepsecurity.io/blog/stepsecurity-harden-runner-now-supports-wildcard-domains-in-block-mode</link>
+            <guid>
+                https://www.stepsecurity.io/blog/stepsecurity-harden-runner-now-supports-wildcard-domains-in-block-mode</guid>
+            <description>StepSecurity Harden-Runner now supports wildcard domains in block mode!
+                Learn how this new feature enhances CI/CD security by preventing unauthorized
+                outbound requests and protecting your workflows.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Migrating From Jenkins to GitHub Actions: A Step-by-Step Guide</title>
+            <link>https://www.stepsecurity.io/blog/jenkins-to-github-actions-step-by-step-guide</link>
+            <guid>https://www.stepsecurity.io/blog/jenkins-to-github-actions-step-by-step-guide</guid>
+            <description>Streamline your CI/CD workflows by migrating from Jenkins to GitHub
+                Actions. This guide covers key differences, challenges, best practices, and a
+                step-by-step migration process to enhance scalability and security.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>StepSecurity Harden-Runner Now Secures Over 4,500 Open Source Repositories</title>
+            <link>
+                https://www.stepsecurity.io/blog/stepsecurity-harden-runner-now-secures-over-4-500-open-source-repositories</link>
+            <guid>
+                https://www.stepsecurity.io/blog/stepsecurity-harden-runner-now-secures-over-4-500-open-source-repositories</guid>
+            <description>StepSecurity Harden-Runner now secures over 4,500 open-source repositories!
+                Learn how this milestone reflects the growing adoption of CI/CD security solutions
+                to protect workflows and enhance GitHub Actions security.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Secure your Actions Runner Controller (ARC) Environment using StepSecurity</title>
+            <link>
+                https://www.stepsecurity.io/blog/secure-your-actions-runner-controller-arc-environment-using-stepsecurity</link>
+            <guid>
+                https://www.stepsecurity.io/blog/secure-your-actions-runner-controller-arc-environment-using-stepsecurity</guid>
+            <description>Learn how to secure your Actions Runner Controller (ARC) environment with
+                StepSecurity. Discover best practices for protecting self-hosted runners, managing
+                network egress, and enhancing CI/CD security.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Security Breach in Stripe Repo: A Deep Dive into the &quot;Pwn Request&quot;
+                Vulnerability</title>
+            <link>
+                https://www.stepsecurity.io/blog/security-breach-in-stripe-repo-a-deep-dive-into-the-pwn-request-vulnerability</link>
+            <guid>
+                https://www.stepsecurity.io/blog/security-breach-in-stripe-repo-a-deep-dive-into-the-pwn-request-vulnerability</guid>
+            <description>Explore the security breach in Stripe&#39;s repository caused by the Pwn
+                Request vulnerability. This deep dive by StepSecurity analyzes the incident and
+                provides actionable insights to secure your CI/CD pipelines.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Pinning GitHub Actions for Enhanced Security: Everything You Should Know</title>
+            <link>
+                https://www.stepsecurity.io/blog/pinning-github-actions-for-enhanced-security-a-complete-guide</link>
+            <guid>
+                https://www.stepsecurity.io/blog/pinning-github-actions-for-enhanced-security-a-complete-guide</guid>
+            <description>Learn how pinning GitHub Actions enhances workflow security. This complete
+                guide by StepSecurity covers best practices to prevent supply chain attacks and
+                secure your CI/CD pipelines.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Scan GitHub Actions Build Logs for Secrets with StepSecurity’s New Feature</title>
+            <link>
+                https://www.stepsecurity.io/blog/scan-github-actions-build-logs-for-secrets-with-stepsecuritys-new-feature</link>
+            <guid>
+                https://www.stepsecurity.io/blog/scan-github-actions-build-logs-for-secrets-with-stepsecuritys-new-feature</guid>
+            <description>Discover how StepSecurity’s new feature scans GitHub Actions build logs for
+                leaked secrets. Learn how to detect and mitigate secret exposure risks in your CI/CD
+                pipelines to enhance workflow security.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Harden Runner GitHub Action Now Auto-Detects Cache Endpoints</title>
+            <link>
+                https://www.stepsecurity.io/blog/harden-runner-github-action-now-auto-detects-cache-endpoints</link>
+            <guid>
+                https://www.stepsecurity.io/blog/harden-runner-github-action-now-auto-detects-cache-endpoints</guid>
+            <description>StepSecurity Harden-Runner GitHub Action now auto-detects cache endpoints!
+                Learn how this feature enhances CI/CD security by preventing data exfiltration and
+                securing workflow caching.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Secure Software Development: StepSecurity&#39;s Role in Increasing OpenSSF
+                Scorecard Scores</title>
+            <link>
+                https://www.stepsecurity.io/blog/secure-software-development-stepsecuritys-role-in-increasing-openssf-scorecard-scores</link>
+            <guid>
+                https://www.stepsecurity.io/blog/secure-software-development-stepsecuritys-role-in-increasing-openssf-scorecard-scores</guid>
+            <description>Discover how StepSecurity helps organizations improve their OpenSSF
+                Scorecard scores. Learn about key security checks and how StepSecurity automates
+                secure software development practices for CI/CD pipelines.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Publish from GitHub Actions using multi-factor authentication</title>
+            <link>
+                https://www.stepsecurity.io/blog/publish-from-github-actions-using-multi-factor-authentication</link>
+            <guid>
+                https://www.stepsecurity.io/blog/publish-from-github-actions-using-multi-factor-authentication</guid>
+            <description>Learn how to publish from GitHub Actions using multi-factor authentication
+                (MFA). Discover best practices to enhance CI/CD security by securing your publishing
+                process with StepSecurity.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Orchestrate Secret Scanning and Linting Pre-Commit Hooks with StepSecurity</title>
+            <link>
+                https://www.stepsecurity.io/blog/orchestrate-secret-scanning-and-linting-pre-commit-hooks-with-stepsecurity</link>
+            <guid>
+                https://www.stepsecurity.io/blog/orchestrate-secret-scanning-and-linting-pre-commit-hooks-with-stepsecurity</guid>
+            <description></description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Orchestrating Security: StepSecurity&#39;s Impact on 400+ Repositories and Future
+                Plans</title>
+            <link>
+                https://www.stepsecurity.io/blog/orchestrating-security-stepsecuritys-impact-on-400-repositories-and-future-plans</link>
+            <guid>
+                https://www.stepsecurity.io/blog/orchestrating-security-stepsecuritys-impact-on-400-repositories-and-future-plans</guid>
+            <description>StepSecurity has secured over 400 repositories and is shaping the future of
+                CI/CD security. Learn about our impact, key milestones, and upcoming plans to
+                enhance GitHub Actions security.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Harden-Runner Now Supports Monitoring Outbound HTTPS Requests From GitHub Actions
+                Runners</title>
+            <link>
+                https://www.stepsecurity.io/blog/monitor-outbound-https-requests-from-github-actions-runners</link>
+            <guid>
+                https://www.stepsecurity.io/blog/monitor-outbound-https-requests-from-github-actions-runners</guid>
+            <description>Learn how to monitor outbound HTTPS requests from GitHub Actions runners
+                using StepSecurity Harden-Runner. Discover how this feature enhances CI/CD security
+                by preventing data exfiltration and identifying anomalous traffic.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Introducing Harden-Runner for Kubernetes-Based Self-Hosted Actions Runners</title>
+            <link>
+                https://www.stepsecurity.io/blog/introducing-harden-runner-for-kubernetes-based-self-hosted-actions-runners</link>
+            <guid>
+                https://www.stepsecurity.io/blog/introducing-harden-runner-for-kubernetes-based-self-hosted-actions-runners</guid>
+            <description>Introducing StepSecurity Harden-Runner for Kubernetes-based self-hosted
+                GitHub Actions runners! Learn how to enhance CI/CD security with network egress
+                filtering and runtime protection for your workflows.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Introducing the Game-Changing Org-Wide Dashboard for Secure Software Development!</title>
+            <link>
+                https://www.stepsecurity.io/blog/introducing-the-game-changing-org-wide-dashboard-for-secure-software-development</link>
+            <guid>
+                https://www.stepsecurity.io/blog/introducing-the-game-changing-org-wide-dashboard-for-secure-software-development</guid>
+            <description>Introducing StepSecurity&#39;s game-changing org-wide dashboard for secure
+                software development! Gain complete visibility into your organization&#39;s CI/CD
+                security posture and automate workflow protections at scale.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Introducing the Runtime Detections UI for StepSecurity Harden Runner</title>
+            <link>
+                https://www.stepsecurity.io/blog/introducing-the-runtime-detections-ui-for-stepsecurity-harden-runner</link>
+            <guid>
+                https://www.stepsecurity.io/blog/introducing-the-runtime-detections-ui-for-stepsecurity-harden-runner</guid>
+            <description>Discover the new Runtime Detections UI for StepSecurity Harden-Runner.
+                Learn how this feature enhances CI/CD security by providing real-time visibility
+                into anomalous behavior in your GitHub Actions workflows.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Introducing Harden Runner Policy Store</title>
+            <link>https://www.stepsecurity.io/blog/introducing-harden-runner-policy-store</link>
+            <guid>https://www.stepsecurity.io/blog/introducing-harden-runner-policy-store</guid>
+            <description>Introducing the Harden-Runner Policy Store by StepSecurity! Learn how this
+                feature simplifies CI/CD security by centrally managing and enforcing security
+                policies across your GitHub Actions workflows.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Implementing an Internal GitHub Actions Marketplace with StepSecurity</title>
+            <link>
+                https://www.stepsecurity.io/blog/implement-internal-github-actions-marketplace-with-stepsecurity</link>
+            <guid>
+                https://www.stepsecurity.io/blog/implement-internal-github-actions-marketplace-with-stepsecurity</guid>
+            <description>Learn how to implement an internal GitHub Actions marketplace with
+                StepSecurity. Discover how to manage third-party Actions securely, enforce
+                governance, and enhance your CI/CD pipeline&#39;s security posture.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>7 GitHub Actions Security Best Practices (With Checklist)</title>
+            <link>https://www.stepsecurity.io/blog/github-actions-security-best-practices</link>
+            <guid>https://www.stepsecurity.io/blog/github-actions-security-best-practices</guid>
+            <description>Explore the top GitHub Actions security best practices to protect your
+                CI/CD pipelines. Learn how to manage secrets, secure workflows, and implement least
+                privileged access with actionable tips from StepSecurity.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>GITHUB_TOKEN: How It Works and How to Secure Automatic GitHub Action Tokens</title>
+            <link>
+                https://www.stepsecurity.io/blog/github-token-how-it-works-and-how-to-secure-automatic-github-action-tokens</link>
+            <guid>
+                https://www.stepsecurity.io/blog/github-token-how-it-works-and-how-to-secure-automatic-github-action-tokens</guid>
+            <description>Learn everything about GITHUB_TOKEN in GitHub Actions, including its
+                permissions, security best practices, and how to set minimum permissions to secure
+                workflows. Discover how StepSecurity automates GITHUB_TOKEN permission management
+                for enhanced CI/CD security.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Introducing AI-CodeWise: Revolutionizing Code Reviews with AI-Powered Analysis</title>
+            <link>
+                https://www.stepsecurity.io/blog/introducing-ai-codewise-revolutionizing-code-reviews-with-ai-powered-analysis</link>
+            <guid>
+                https://www.stepsecurity.io/blog/introducing-ai-codewise-revolutionizing-code-reviews-with-ai-powered-analysis</guid>
+            <description>Introducing AI CodeWise by StepSecurity—revolutionizing code reviews with
+                AI-powered analysis. Learn how this innovative tool enhances code security, detects
+                vulnerabilities, and streamlines the review process.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>How to Use Docker in Actions Runner Controller (ARC) Runners Securely</title>
+            <link>
+                https://www.stepsecurity.io/blog/how-to-use-docker-in-actions-runner-controller-runners-securelly</link>
+            <guid>
+                https://www.stepsecurity.io/blog/how-to-use-docker-in-actions-runner-controller-runners-securelly</guid>
+            <description>Discover best practices for using Docker in Actions Runner Controller (ARC)
+                runners securely. Learn how to implement network egress filtering and runtime
+                security to protect your CI/CD pipelines effectively.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Celebrating Milestones: 1500 Repositories Secured with Harden-Runner and
+                Expanding to More CI/CD Providers</title>
+            <link>https://www.stepsecurity.io/blog/harden-runner-expanding-to-more-ci-cd-providers</link>
+            <guid>https://www.stepsecurity.io/blog/harden-runner-expanding-to-more-ci-cd-providers</guid>
+            <description>StepSecurity Harden-Runner is expanding beyond GitHub Actions to support
+                more CI/CD providers, including GitLab, Bitbucket, Azure DevOps, and Harness. Learn
+                how this enhances CI/CD security across platforms.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Best Practices in GitHub Actions Security: A Case Study with Google’s Use of
+                StepSecurity</title>
+            <link>https://www.stepsecurity.io/blog/github-actions-security-a-case-study-with-google</link>
+            <guid>https://www.stepsecurity.io/blog/github-actions-security-a-case-study-with-google</guid>
+            <description>Explore a GitHub Actions security case study with Google. Learn how
+                StepSecurity Harden-Runner detected a supply chain attack in real time, highlighting
+                best practices for securing CI/CD pipelines.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>GitHub Actions Security Automation for Your Private Repositories</title>
+            <link>
+                https://www.stepsecurity.io/blog/github-actions-security-automation-for-private-repositories</link>
+            <guid>
+                https://www.stepsecurity.io/blog/github-actions-security-automation-for-private-repositories</guid>
+            <description>Discover how to automate GitHub Actions security for private repositories
+                with StepSecurity. Learn best practices to secure workflows, manage token
+                permissions, and protect your CI/CD pipelines.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Harden-Runner Detects Anomalous Traffic to api.ipify.org Across Multiple
+                Customers</title>
+            <link>
+                https://www.stepsecurity.io/blog/harden-runner-detects-anomalous-traffic-to-api-ipify-org-across-multiple-customers</link>
+            <guid>
+                https://www.stepsecurity.io/blog/harden-runner-detects-anomalous-traffic-to-api-ipify-org-across-multiple-customers</guid>
+            <description>Discover how StepSecurity Harden-Runner detected anomalous traffic to
+                api.ipify.org across multiple customers. Learn how runtime monitoring enhances CI/CD
+                security by identifying suspicious outbound traffic in real time.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Defend Against ArtiPACKED with StepSecurity: New Feature to Detect Leaked Secrets
+                in GitHub Action Workflow Artifacts</title>
+            <link>
+                https://www.stepsecurity.io/blog/detect-leaked-secrets-in-github-action-workflow-artifacts</link>
+            <guid>
+                https://www.stepsecurity.io/blog/detect-leaked-secrets-in-github-action-workflow-artifacts</guid>
+            <description>Learn how StepSecurity detects leaked secrets in GitHub Action workflow
+                artifacts. Discover advanced security measures to protect your CI/CD pipelines and
+                prevent sensitive data exposure.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>GitHub Actions Goat - a Deliberately Vulnerable GitHub Actions CI/CD Environment</title>
+            <link>
+                https://www.stepsecurity.io/blog/github-actions-goat-a-deliberately-vulnerable-github-actions-ci-cd-environment</link>
+            <guid>
+                https://www.stepsecurity.io/blog/github-actions-goat-a-deliberately-vulnerable-github-actions-ci-cd-environment</guid>
+            <description>Explore GitHub Actions Goat, a deliberately vulnerable CI/CD environment
+                created by StepSecurity. Learn how it helps security teams and developers identify
+                and mitigate real-world GitHub Actions security risks.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Determine Minimum GITHUB_TOKEN Permissions Using eBPF with StepSecurity
+                Harden-Runner</title>
+            <link>
+                https://www.stepsecurity.io/blog/determine-minimum-github-token-permissions-using-ebpf-with-stepsecurity-harden-runner</link>
+            <guid>
+                https://www.stepsecurity.io/blog/determine-minimum-github-token-permissions-using-ebpf-with-stepsecurity-harden-runner</guid>
+            <description>Learn how to determine the minimum GITHUB_TOKEN permissions using eBPF with
+                StepSecurity Harden-Runner. Discover how this feature enhances GitHub Actions
+                security by reducing token exposure risks in your CI/CD pipelines.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Introduction to GitHub Actions Runner Controller: A Blog Series</title>
+            <link>https://www.stepsecurity.io/blog/github-actions-runner-controller-blog-series</link>
+            <guid>https://www.stepsecurity.io/blog/github-actions-runner-controller-blog-series</guid>
+            <description>Dive into the GitHub Actions Runner Controller blog series by StepSecurity.
+                Learn best practices, security tips, and deployment strategies to optimize and
+                secure your CI/CD workflows.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Do You Maintain a GitHub Action? Contribute to the SecureWorkflows Project!</title>
+            <link>
+                https://www.stepsecurity.io/blog/do-you-maintain-a-github-action-contribute-to-the-secureworkflows-project</link>
+            <guid>
+                https://www.stepsecurity.io/blog/do-you-maintain-a-github-action-contribute-to-the-secureworkflows-project</guid>
+            <description>Do you maintain a GitHub Action? Contribute to the SecureWorkflows Project
+                by StepSecurity to improve GitHub Actions security across the open-source ecosystem
+                and help protect CI/CD pipelines.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Deploy Actions Runner Controller (ARC) using ArgoCD: A Step-by-Step Guide</title>
+            <link>https://www.stepsecurity.io/blog/deploy-actions-runner-controller-using-argocd</link>
+            <guid>https://www.stepsecurity.io/blog/deploy-actions-runner-controller-using-argocd</guid>
+            <description>Learn how to deploy Actions Runner Controller (ARC) securely using ArgoCD.
+                Follow this step-by-step guide to streamline CI/CD workflows while enhancing
+                security and scalability with GitOps principles.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Harden-Runner Defends Against Arbitrary Command Execution in
+                tj-actions/changed-files GitHub Action</title>
+            <link>
+                https://www.stepsecurity.io/blog/defend-against-arbitrary-command-execution-in-tj-actions-changed-files</link>
+            <guid>
+                https://www.stepsecurity.io/blog/defend-against-arbitrary-command-execution-in-tj-actions-changed-files</guid>
+            <description>Learn how to confidently manage risks of third-party GitHub Actions in your
+                CI/CD pipelines. Discover governance best practices and how StepSecurity helps
+                secure workflows with automated analysis and risk mitigation.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Celebrating 2,000+ GitHub Repositories Secured with Harden-Runner</title>
+            <link>
+                https://www.stepsecurity.io/blog/celebrating-2000-github-repositories-secured-with-harden-runner</link>
+            <guid>
+                https://www.stepsecurity.io/blog/celebrating-2000-github-repositories-secured-with-harden-runner</guid>
+            <description>StepSecurity Harden-Runner has secured over 2,000 GitHub repositories!
+                Celebrate this milestone and learn how our CI/CD security solution helps protect
+                workflows and prevent supply chain attacks.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Defend Your GitHub Actions CI/CD Environment in Public Repositories</title>
+            <link>
+                https://www.stepsecurity.io/blog/defend-your-github-actions-ci-cd-environment-in-public-repositories</link>
+            <guid>
+                https://www.stepsecurity.io/blog/defend-your-github-actions-ci-cd-environment-in-public-repositories</guid>
+            <description>Learn how to defend your GitHub Actions CI/CD environment in public
+                repositories. Discover best practices and how StepSecurity helps secure workflows,
+                manage token permissions, and prevent supply chain attacks.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Confidently Manage Risks of Third-Party GitHub Actions in Your CI/CD: Insights
+                from StepSecurity Webinar</title>
+            <link>
+                https://www.stepsecurity.io/blog/confidently-manage-risks-of-third-party-github-actions-in-your-ci-cd</link>
+            <guid>
+                https://www.stepsecurity.io/blog/confidently-manage-risks-of-third-party-github-actions-in-your-ci-cd</guid>
+            <description>Learn how to confidently manage risks of third-party GitHub Actions in your
+                CI/CD pipelines. Discover governance best practices and how StepSecurity helps
+                secure workflows with automated analysis and risk mitigation.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Harden-Runner for Self-Hosted Virtual Machine Runners now Generally Available
+                (GA)</title>
+            <link>https://www.stepsecurity.io/blog/ci-cd-security-for-self-hosted-vm-runners</link>
+            <guid>https://www.stepsecurity.io/blog/ci-cd-security-for-self-hosted-vm-runners</guid>
+            <description>Learn best practices for CI/CD security in self-hosted VM runners. Discover
+                how StepSecurity helps protect your CI/CD pipelines by mitigating risks and securing
+                self-hosted GitHub Actions environments.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Celebrating 3500+ GitHub Repositories Secured with Harden-Runner</title>
+            <link>
+                https://www.stepsecurity.io/blog/celebrating-3500-github-repositories-secured-with-harden-runner</link>
+            <guid>
+                https://www.stepsecurity.io/blog/celebrating-3500-github-repositories-secured-with-harden-runner</guid>
+            <description>StepSecurity Harden-Runner now secures 3,500+ GitHub repositories! Explore
+                how this achievement reflects the growing trust in CI/CD security solutions to
+                protect workflows and enhance GitHub Actions security.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Celebrating 3,000+ GitHub Repositories Secured with Harden-Runner</title>
+            <link>
+                https://www.stepsecurity.io/blog/celebrating-3000-github-repositories-secured-with-harden-runner</link>
+            <guid>
+                https://www.stepsecurity.io/blog/celebrating-3000-github-repositories-secured-with-harden-runner</guid>
+            <description>StepSecurity Harden-Runner has secured over 3,000 GitHub repositories!
+                Discover how this milestone highlights the growing adoption of CI/CD security
+                solutions to protect workflows and prevent supply chain attacks.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Announcing Anomalous Outbound Call Detection Using Machine Learning</title>
+            <link>
+                https://www.stepsecurity.io/blog/announcing-anomalous-outbound-call-detection-using-machine-learning</link>
+            <guid>
+                https://www.stepsecurity.io/blog/announcing-anomalous-outbound-call-detection-using-machine-learning</guid>
+            <description>StepSecurity introduces anomalous outbound call detection using machine
+                learning! Learn how this feature enhances CI/CD security by identifying and
+                mitigating suspicious network activities in real-time.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Announcing GitHub Actions Advisor and StepSecurity Maintained Actions</title>
+            <link>
+                https://www.stepsecurity.io/blog/announcing-github-actions-advisor-and-stepsecurity-maintained-actions</link>
+            <guid>
+                https://www.stepsecurity.io/blog/announcing-github-actions-advisor-and-stepsecurity-maintained-actions</guid>
+            <description>Introducing GitHub Actions Advisor and StepSecurity-maintained Actions!
+                Learn how these tools help developers enhance GitHub Actions security, manage
+                third-party risks, and ensure workflow compliance effortlessly.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Celebrating 1000 Repositories Secured with Harden Runner: A Journey of Growth and
+                Collaboration</title>
+            <link>
+                https://www.stepsecurity.io/blog/celebrating-1000-repositories-secured-with-harden-runner-a-journey-of-growth-and-collaboration</link>
+            <guid>
+                https://www.stepsecurity.io/blog/celebrating-1000-repositories-secured-with-harden-runner-a-journey-of-growth-and-collaboration</guid>
+            <description>StepSecurity Harden-Runner has secured 1,000+ repositories! Celebrate this
+                milestone with us as we reflect on our journey of growth, collaboration, and
+                commitment to enhancing CI/CD security.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Analysis of Backdoored XZ Utils Build Process with Harden-Runner</title>
+            <link>
+                https://www.stepsecurity.io/blog/analysis-of-backdoored-xz-utils-build-process-with-harden-runner</link>
+            <guid>
+                https://www.stepsecurity.io/blog/analysis-of-backdoored-xz-utils-build-process-with-harden-runner</guid>
+            <description>Explore an in-depth analysis of the backdoored XZ Utils build process using
+                StepSecurity Harden-Runner. Learn how real-time monitoring detected malicious
+                activity and safeguarded CI/CD pipelines from supply chain attacks.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>Announcing General Availability of Harden Runner</title>
+            <link>https://www.stepsecurity.io/blog/announcing-general-availability-of-harden-runner</link>
+            <guid>https://www.stepsecurity.io/blog/announcing-general-availability-of-harden-runner</guid>
+            <description>StepSecurity announces the general availability of Harden-Runner! Discover
+                how this powerful tool enhances CI/CD security by monitoring network egress,
+                detecting anomalies, and automating GitHub Actions protection.</description>
+            <pubDate>Tue, 08 Jul 2025 09:03:52 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
