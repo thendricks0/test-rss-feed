@@ -21,7 +21,7 @@
                 maintainer packages, harvests AWS/GCP/Azure credentials using TruffleHog, and
                 establishes persistence through GitHub Actions backdoors - representing a major
                 escalation in NPM ecosystem threats.</description>
-            <pubDate>Wed, 17 Sep 2025 07:57:29 GMT</pubDate>
+            <pubDate>Wed, 19 Sep 2025 09:57:29 GMT</pubDate>
             <media:content
                 url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68c9a9f07e2bd80bee35b317_Blog-Sept4-20.jpg"
                 medium="image" />
