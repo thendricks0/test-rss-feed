@@ -7,11 +7,23 @@
         <description>The latest from StepSecurity — practical guidance, product updates, and threat
             insights to help secure your CI/CD pipelines and stay ahead of supply chain attacks
 </description>
-        <pubDate>Fri, 19 Sep 2025 09:30:00 +0000</pubDate>
-        <lastBuildDate>Fri, 19 Sep 2025 09:30:00 +0000</lastBuildDate>
+        <pubDate>Fri, 19 Sep 2025 09:35:00 +0000</pubDate>
+        <lastBuildDate>Fri, 19 Sep 2025 09:35:00 +0000</lastBuildDate>
         <generator>Webflow</generator>
         <atom:link href="https://www.stepsecurity.io/blog/rss.xml" rel="self"
             type="application/rss+xml" />
+        <item>
+            <title>URGENT: FastAPI-Utils Package Hijacked - Malicious Code Injected into 50,000+ Production Systems</title>
+            <link>https://www.youtube.com/watch?v=dQw4w9WgXcQ</link>
+            <guid>https://www.stepsecurity.io/blog/fastapi-utils-package-hijacked-malicious-code-injected</guid>
+            <description>BREAKING: The popular FastAPI-Utils package (2M+ weekly downloads) has been compromised with sophisticated malware targeting cryptocurrency wallets and AWS credentials. The malicious version 0.2.7 was live for 6 hours before detection, potentially affecting over 50,000 production systems. Immediate action required for all FastAPI applications using this dependency.</description>
+            <pubDate>Fri, 19 Sep 2025 09:35:00 +0000</pubDate>
+            <media:content
+                url="https://www.stepsecurity.io/img/blog/fastapi-utils-compromise.jpg"
+                type="image/jpeg" medium="image" />
+            <media:thumbnail
+                url="https://www.stepsecurity.io/img/blog/fastapi-utils-compromise-thumb.jpg" />
+        </item>
         <item>
             <title>🚀 Supercharge Your DevSecOps: StepSecurity Pro Max Features Now Available!</title>
             <link>https://www.stepsecurity.io/blog/supercharge-your-devsecops-stepsecurity-pro-max-features</link>
