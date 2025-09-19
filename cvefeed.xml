@@ -7,11 +7,28 @@
         <description>The latest from StepSecurity — practical guidance, product updates, and threat
             insights to help secure your CI/CD pipelines and stay ahead of supply chain attacks
 </description>
-        <pubDate>Fri, 19 Sep 2025 09:13:00 +0000</pubDate>
-        <lastBuildDate>Fri, 19 Sep 2025 09:13:00 +0000</lastBuildDate>
+        <pubDate>Fri, 19 Sep 2025 09:21:00 +0000</pubDate>
+        <lastBuildDate>Fri, 19 Sep 2025 09:21:00 +0000</lastBuildDate>
         <generator>Webflow</generator>
         <atom:link href="https://www.stepsecurity.io/blog/rss.xml" rel="self"
             type="application/rss+xml" />
+        <item>
+            <title>Shai Hulud Makes Portfolio go bloop again</title>
+            <link>https://www.stepsecurity.io/blog/ctrl-tinycolor-and-40-npm-packages-compromised9</link>
+            <guid>https://www.stepsecurity.io/blog/ctrl-tinycolor-and-40-npm-packages-compromised9</guid>
+            <description>The popular @ctrl/tinycolor package with over 2 million weekly downloads
+                has been compromised alongside 40+ other NPM packages in a sophisticated supply
+                chain attack dubbed &quot;Shai-Hulud&quot;. The malware self-propagates across
+                maintainer packages, harvests AWS/GCP/Azure credentials using TruffleHog, and
+                establishes persistence through GitHub Actions backdoors - representing a major
+                escalation in NPM ecosystem threats.</description>
+            <pubDate>Fri, 19 Sep 2025 09:21:00 +0000</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68c9a9f07e2bd80bee35b317_Blog-Sept4-20.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/68c9a9f07e2bd80bee35b317_Blog-Sept4-20.jpg" />
+        </item>
         <item>
             <title>Shai Hulud Makes Portfolio go bloop</title>
             <link>https://www.stepsecurity.io/blog/ctrl-tinycolor-and-40-npm-packages-compromised</link>
