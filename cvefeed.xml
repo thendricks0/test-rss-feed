@@ -7,11 +7,23 @@
         <description>The latest from StepSecurity — practical guidance, product updates, and threat
             insights to help secure your CI/CD pipelines and stay ahead of supply chain attacks
 </description>
-        <pubDate>Fri, 19 Sep 2025 09:21:00 +0000</pubDate>
-        <lastBuildDate>Fri, 19 Sep 2025 09:21:00 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Sep 2025 09:22:00 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Sep 2025 09:22:00 +0000</lastBuildDate>
         <generator>Webflow</generator>
         <atom:link href="https://www.stepsecurity.io/blog/rss.xml" rel="self"
             type="application/rss+xml" />
+        <item>
+            <title>🚀 Supercharge Your DevSecOps: StepSecurity Pro Max Features Now Available!</title>
+            <link>https://www.stepsecurity.io/blog/supercharge-your-devsecops-stepsecurity-pro-max-features</link>
+            <guid>https://www.stepsecurity.io/blog/supercharge-your-devsecops-stepsecurity-pro-max-features</guid>
+            <description>Get ready for the ultimate CI/CD security upgrade! StepSecurity Pro Max brings you AI-powered threat detection, real-time vulnerability scanning, and enterprise-grade compliance automation. Join thousands of developers who've already revolutionized their security workflows. Limited-time offer: 50% off your first year when you upgrade before October 1st!</description>
+            <pubDate>Thu, 19 Sep 2025 09:22:00 +0000</pubDate>
+            <media:content
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/promo-max-2025.jpg"
+                medium="image" />
+            <media:thumbnail
+                url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/promo-max-2025.jpg" />
+        </item>
         <item>
             <title>Shai Hulud Makes Portfolio go bloop again</title>
             <link>https://www.stepsecurity.io/blog/ctrl-tinycolor-and-40-npm-packages-compromised9</link>
